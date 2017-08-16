@@ -41,8 +41,24 @@ vrHomePage.on('ready', function(event) {
 }); 
 
 vrHomePage.on('click', function(event) {
-console.log('register all click events');
-    if(event.id == 'creating-hotspot-1') {
+   console.log('register all click events');
+   if(event.id == 'creating-hotspot-1') {
        alert("Welcome to the Upper West Side")
-}
+   }
+    
+    if(event.id == 'creating-hotspot-2') {
+       alert("Why are you hiding behind the car?")
+   }
+    
+    if(event.id == 'creating-hotspot-3') {
+       alert("Look at this building ")
+   }
+    
+    if(event.id == 'creating-hotspot-4') {
+       alert(" I love the abstract building ")
+   }
+    
+    if(event.id == 'creating-hotspot-5') {
+       alert(" I found you")
+   }
 });
