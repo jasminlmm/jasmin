@@ -45,4 +45,5 @@ console.log('register all click events');
     if('click.id == 'creating-hotspot-1') {
        thetour("Welcome to the Upper West Side")
 }
+}
 });
