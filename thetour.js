@@ -43,7 +43,6 @@ vrHomePage.on('ready', function(event) {
 vrHomePage.on('click', function(event) {
 console.log('register all click events');
     if('click.id == 'creating-hotspot-1') {
-       thetour("Welcome to the Upper West Side")
-}
+       alert("Welcome to the Upper West Side")
 }
 });
